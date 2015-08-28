@@ -44,7 +44,7 @@ SensorTag.stopDiscoverAll(onDiscover);
 #### By id
 
 ```javascript
-SensorTag.discoverById(id, callback(sensorTag));
+SensorTag.discoverByUuid(id, callback(sensorTag));
 ```
 
 #### By address
